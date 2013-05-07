@@ -7,6 +7,10 @@ Java implementation of the Gauss–Legendre algorithm
 
 ## Use
 
-To use, compile or generate a jar, and launch it with the number of decimals you want as argument.
+To launch the jar, use the following command : 
 
-At the end of the process, a txt file will be generated containing the elapsed time, and the results.
+```batch
+java -jar Pi.jar <number of decimals>
+```
+
+At the end of the process, a file named "pi-<number of decimals>.txt" will be generated, containing the elapsed time, and the result.
